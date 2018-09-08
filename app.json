@@ -18,6 +18,8 @@
     "list": [
       {
         "pagePath": "pages/index/index",
+        "iconPath":"image/12.png",
+        "selectedIconPath": "image/11.png",
         "text": "主页"
       },
       {
