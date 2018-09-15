@@ -1,0 +1,163 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true">
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="100%" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='list'>
+    <view class="outer-list">
+      <navigator url="">
+        <image src="/image/gy.png"></image>
+        <view class="outer-text">
+          <text>关于我们</text>
+        </view>
+      </navigator>
+    </view>
+    <view class="outer-list">
+      <navigator url="">
+        <image src="/image/fw.png"></image>
+        <view class="outer-text">
+          <text>预约服务</text>
+        </view>
+      </navigator>
+    </view>
+    <view class="outer-list">
+      <navigator url="">
+        <image src="/image/dd.png"></image>
+        <view class="outer-text">
+          <text>商品购买</text>
+        </view>
+      </navigator>
+    </view>
+    <view class="outer-list">
+      <navigator url="">
+        <image src="/image/yy.png"></image>
+        <view class="outer-text">
+          <text>我的订单</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+  <view class='contactme'>
+    <view class='contactme-image'>
+      <image src="/image/lx.png"></image>
+    </view>
+    <view class='contactme-text'>
+      <text class='texttitle'>欢迎光临本店，我是店主</text>
+      <text class='texttime'> 本店营业时间 8：00-20：00 </text>
+    </view>
+    <view class='contactme-lx'>
+      <view class='lx-list' bindtap='tel'>
+        <image class='tel' mode='aspectFit' src='/image/tel.png'></image>
+      </view>
+      <view class='lx-list' bindtap='awx'>
+        <image class='awx' mode='aspectFit' src='/image/wx.jpg'></image>
+      </view>
+    </view>
+  </view>
+  <view class='quick'>
+    <view class='quick-list'>
+      <navigator url="">
+        <image src="/image/xzz.jpg"></image>
+        <view class="quick-text">
+          <text>宠物洗澡</text>
+        </view>
+      </navigator>
+    </view>
+    <view class='quick-list'>
+     <navigator url="">
+        <image src="/image/mr.jpg"></image>
+        <view class="quick-text">
+          <text>宠物美容</text>
+        </view>
+      </navigator>
+    </view>
+    <view class='quick-list'>
+     <navigator url="">
+        <image src="/image/jy.jpg"></image>
+        <view class="quick-text">
+          <text>宠物寄养</text>
+        </view>
+      </navigator>
+    </view>
+    <view class='quick-list'>
+     <navigator url="">
+        <image src="/image/sd.jpg"></image>
+        <view class="quick-text">
+          <text>宠物商店</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+      <view class="newest">
+        <view class="newest-title"><text>最近新品</text></view>
+        <view class="newest-box">
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/s4.png"></image>
+                    <view class="newest-text"><text>瓜子 100g</text></view>
+                    <view class="newest-text"><text>￥ 0.01</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/s5.png"></image>
+                    <view class="newest-text"><text>芹菜 半斤</text></view>
+                    <view class="newest-text"><text>￥ 0.02</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/s6.png"></image>
+                    <view class="newest-text"><text>素米 375g</text></view>
+                    <view class="newest-text"><text>￥ 0.03</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/s4.png"></image>
+                    <view class="newest-text"><text>瓜子 100g</text></view>
+                    <view class="newest-text"><text>￥ 0.01</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/s5.png"></image>
+                    <view class="newest-text"><text>芹菜 半斤</text></view>
+                    <view class="newest-text"><text>￥ 0.02</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/s6.png"></image>
+                    <view class="newest-text"><text>素米 375g</text></view>
+                    <view class="newest-text"><text>￥ 0.03</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/s4.png"></image>
+                    <view class="newest-text"><text>瓜子 100g</text></view>
+                    <view class="newest-text"><text>￥ 0.01</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/s5.png"></image>
+                    <view class="newest-text"><text>芹菜 半斤</text></view>
+                    <view class="newest-text"><text>￥ 0.02</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/s6.png"></image>
+                    <view class="newest-text"><text>素米 375g</text></view>
+                    <view class="newest-text"><text>￥ 0.03</text></view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>
