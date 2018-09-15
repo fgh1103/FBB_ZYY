@@ -6,61 +6,23 @@
     </view>
 
     <scroll-view class="categroy-right" scroll-y="{{isScroll}}" scroll-into-view="{{toView}}" scroll-with-animation="true">
-         <block wx:for="{{goodsList}}" wx:for-index wx:key="idx">
-            <view id="{{item.id}}" class="cate-box">
-                <view class="cate-banner">
-                    <image src="{{item.banner}}"></image>
-                </view>
-                <view class="cate-title">
-                    <text>{{item.name}}</text>
-                </view>
-                <view class="product">
-                    <view class="product-list" wx:for="{{item.detail}}" wx:key="index" wx:for-item="val">
-                        <navigator url="../list/list">
-                            <image src="{{val.thumb}}"></image>
-                            <view class="classname"><text>{{val.name}}</text></view>
-                        </navigator>
-                    </view>
+        <view id="{{goodsDetail.id}}" class="cate-box">
+            <view class="cate-banner">
+                <image src="{{goodsDetail.banner}}"></image>
+            </view>
+            <view class="cate-title">
+                <text>{{goodsDetail.title}}</text>
+            </view>
+            <view class="list-box">
+                <view class="newest-list" wx:for="{{goodsDetail.list}}" wx:key="index" wx:for-item="val">
+                    <navigator url="../details/details">
+                        <image src="{{val.thumb}}"></image>
+                        <view class="newest-text"><text>{{val.name}} | ￥{{val.price}}</text></view>
+                        <!-- <view class="newest-text"><text></text></view> -->
+                    </navigator>
                 </view>
             </view>
-        </block> 
-        <!-- <block>
-            <view id="guowei" class="cate-box">
-                <view class="cate-banner">
-                    <image src="/image/c1.png"></image>
-                </view>
-                <view class="cate-title">
-                    <text>果味</text>
-                </view>
-                <view class="product">
-                    <view class="product-list">
-                        <navigator url="../list/list">
-                            <image src="/image/c2.p
-                            ng"></image>
-                            <view class="classname"><text>梨花带雨 3个</text></view>
-                        </navigator>
-                    </view>
-                </view>
-            </view>
-        </block>
-        <block>
-            <view id="shucai" class="cate-box">
-                <view class="cate-banner">
-                    <image src="/image/c1.png"></image>
-                </view>
-                <view class="cate-title">
-                    <text>shucai</text>
-                </view>
-                <view class="product">
-                    <view class="product-list">
-                        <navigator url="../list/list">
-                            <image src="/image/c2.png"></image>
-                            <view class="classname"><text>梨花带雨 3个</text></view>
-                        </navigator>
-                    </view>
-                </view>
-            </view>
-        </block> -->
+        </view>
     </scroll-view>
 
 </view>
