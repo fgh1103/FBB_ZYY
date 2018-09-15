@@ -1,0 +1,167 @@
+swiper {
+    height: 421.5rpx;
+
+}
+swiper-item image {
+    width: 100%;
+    height: 100%;
+}
+.theme-title
+{
+margin-top: 30px;  
+}
+.product-title ,.theme-title
+{
+    width: 100%;
+    padding:30rpx 0;
+    height: 40rpx;
+    color: #AB956D;
+    text-align: center;  
+}
+.select-bottom,.select-top{
+    width: 100%;
+    height: 375rpx;
+}
+.theme
+{
+  border-bottom: 20rpx solid #ededed;  
+}
+.list
+{
+   border-bottom: 20rpx solid #ededed; 
+   height: 170rpx;
+   width: 100%;
+}
+.contactme
+{
+   border-bottom: 20rpx solid #ededed; 
+   height: 150rpx;
+   width: 100%;
+}
+.outer-list
+{
+  display: inline-block;
+    width: 25%;
+    height: 150rpx;
+    border-radius: 10px;
+    text-align: center;
+}
+.outer-list image
+{
+   width: 75rpx;
+    height: 75rpx;
+    margin: 20rpx 0 10rpx;
+}
+.outer-text
+{
+   font-size: 25rpx;
+}
+.contactme image
+{
+  margin-top: 10rpx;
+   margin-left: 20rpx;
+  width: 130rpx;
+    height: 130rpx;
+    margin-right: 60rpx;
+}
+.contactme-image,.contactme-text,.contactme-lx
+{
+  display: inline-block;
+}
+
+.contactme-image
+{
+  width: 20%;  
+}
+.contactme-text
+{
+  width: 50%;  
+   height: 130rpx;
+}
+.contactme-text .texttitle
+{
+  font-size: 25rpx;
+ display:block ;
+ margin: 10rpx;
+ text-align: center;
+}
+.contactme-text .texttime
+{
+  font-size: 22rpx;
+ display:block ;
+ margin: 10rpx;
+ text-align: center;
+}
+.contactme-lx
+{ 
+  width: 20%;
+}
+.lx-list
+{
+    display: inline-block;
+    width: 50%;
+    height: 130rpx;
+}
+.contactme-lx image
+{ 
+   width: 70rpx;
+    height: 70rpx;
+    
+}
+.quick
+{
+  margin-top: 5rpx;
+  border-bottom: 20rpx solid #ededed; 
+   height: 480rpx;
+   width: 100%;
+}
+ .quick-list
+{
+  display: inline-block;
+    width: 47%;
+    height: 150rpx;
+    border-radius: 20px;
+    text-align: center;
+    margin:0 20rpx 20rpx 0;
+    background: #f5f6f5;
+}
+.quick-list image
+{
+   width: 100%;
+    height: 180rpx;
+     border-radius: 20px;
+}
+.quick-text
+{
+   font-size: 25rpx;
+}
+.newest-box{
+    padding:0 40rpx;
+}
+.newest-box .newest-list{
+    display: inline-block;
+    width: 325rpx;
+    height: 325rpx;
+    margin:0 20rpx 20rpx 0;
+    border-radius: 10px;
+    text-align: center;
+    background: #f5f6f5;
+}
+.newest-box .newest-list:nth-child(2n){
+    margin-right: 0;
+}
+.newest-box .newest-list image{
+    width: 175rpx;
+    height: 175rpx;
+    margin: 20rpx 0 10rpx;
+}
+.newest-box .newest-list .newest-text{
+    font-size: 25rpx;
+}
+.newest-title{
+    width: 100%;
+    padding:30rpx 0;
+    height: 40rpx;
+    color:bisque;
+    text-align: center;
+}
